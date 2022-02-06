@@ -31,17 +31,22 @@ Similarly, the above right visualization showed that the brands which had the gr
 
 Finally, the below plot was produced to investigate correlation between battery life and rating. No correlation at all was found between these variables, regardless of brand.
 
-![](/Visualizations/batterylife_brand_rating.jpg
+![](/Visualizations/batterylife_brand_rating.jpg)
 
 Returning to the usage data, users were organized into 6 categories depending on the degrees to which their usage overlapped:
 
 ![](/Visualizations/features_venn.png)
 
 ≈45% (15) of users were passive distance and sleep logging- (daily_sleep_noweight_nolog_ids)
+
 ≈15% (5) of users were passive distance, sleep, and weight logging. (daily_sleep_weight_nolog_ids)
+
 ≈9% (3) of users were passive distance, active distance, and sleep logging. -(daily_sleep_noweight_log_ids)
+
 ≈3% (1) of users were passive distance, active distance, sleep, and weight logging. -(daily_sleep_weight_log_ids)
+
 ≈21% (7) of users were only passive distance logging.  -(daily_nosleep_noweight_nolog_ids)
+
 ≈6% (2) of users were passive distance, weight logging. -(daily_nosleep_weight_nolog_ids)
 
 0 users were logging anything without also passive distance logging and 0 users were passive and active distance logging, but nothing else. These breakdowns were likely a result of the capabilities of the devices being used, but whether or not devices had capabilities, users chose to buy devices with certain capabilities and chose to engage with different uses differently. This made each of these user types distinct from one another. There was insufficient data to analyze weight logged or active logged data, but given the major overlap of passive distance logging data and sleep data I was able to proceed with calculating average sedentary time, activity levels, and logged vs unlogged hours of each of these user types subsets. Furthermore, I was able to calculate average sleep duration of each of the 4 subsets that logged their sleep data. 
