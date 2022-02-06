@@ -15,11 +15,15 @@ This case study analysis, hypothetically deliverable to co-founders and the larg
 
 Two datasets, described in detail in ??????, were analyzed to determine trends in the current fitness tracker market as well as the ways in which current fitness tracker usage can affect user health and activity. These datasets were exceptionally limited in their usability, statistically insignificant to say the least, and for more complete understanding of the market and fitness tracker usage different datasets would be required (options listed in ????). The data was also insufficient to determine the gender identity of the users. This was unfortunate as I was seeking to make recommendations for a company that specifically targets women. None-the-less, these datasets alone were useful in the interim as preliminary analysis to show how consumers use and enjoy non-Bellabeat© smart devices.
 
-https://github.com/ineedgills08/FTCaseStudy/blob/main/Visualizations/sed_act_sleep_dur.jpg
+![](/Visualizations/asleep_inbed.jpg)
+![](/Visualizations/sed_act_sleep_dur.jpg)
 
 Firstly, it was found that in general, the amount of time that a user spent in bed positively correlated with the amount of time they spent asleep, and, furthermore, the amount of time a user spent sedentary negatively correlated to the amount of time the user spent asleep on any given day. This was all relatively unsurprising. Users sleep while they're in bed and when they rest less during the day, then they are more likely to sleep in the evening. 
 
 Other than this, little correlation was found between any other variables. Numerous scatterplots were produced to find any correlations between varying varying levels and sedentary minutes, varying activity levels and minutes asleep, and steps and minutes asleep, but no correlations were found in any of these general analyses. More scatterplots were produced in order to find correlation between varying activity levels and minutes logged in general and again no such correlation was found in any of these general analyses. 
+
+![](/Visualizations/material_rating.jpg)
+![](/Visualizations/brand_rating.jpg)
 				
 Next, I visited the fitness tracker market data to compare the ratings of different brands, the ratings of different strap materials, and the general correlation between rating and battery time depending on the brand. The above left visualization shows that the highest rated and most frequently highly rated strap materials were aluminum and silicone. Silicone straps had a greater range of ratings, while aluminum did not. This gave aluminum wrist brands the highest average rating of 4.6, while silicone came in 6th in terms of average rating with a rating of 4.1. 
 
@@ -27,7 +31,11 @@ Similarly, the above right visualization showed that the brands which had the gr
 
 Finally, the below plot was produced to investigate correlation between battery life and rating. No correlation at all was found between these variables, regardless of brand.
 
+![](/Visualizations/batterylife_brand_rating.jpg
+
 Returning to the usage data, users were organized into 6 categories depending on the degrees to which their usage overlapped:
+
+![](/Visualizations/features_venn.png)
 
 ≈45% (15) of users were passive distance and sleep logging- (daily_sleep_noweight_nolog_ids)
 ≈15% (5) of users were passive distance, sleep, and weight logging. (daily_sleep_weight_nolog_ids)
@@ -38,13 +46,21 @@ Returning to the usage data, users were organized into 6 categories depending on
 
 0 users were logging anything without also passive distance logging and 0 users were passive and active distance logging, but nothing else. These breakdowns were likely a result of the capabilities of the devices being used, but whether or not devices had capabilities, users chose to buy devices with certain capabilities and chose to engage with different uses differently. This made each of these user types distinct from one another. There was insufficient data to analyze weight logged or active logged data, but given the major overlap of passive distance logging data and sleep data I was able to proceed with calculating average sedentary time, activity levels, and logged vs unlogged hours of each of these user types subsets. Furthermore, I was able to calculate average sleep duration of each of the 4 subsets that logged their sleep data. 
 
+![](/Visualizations/group_veryactive.jpg)
+![](/Visualizations/group_fairlyactive.jpg)
+
 Using bar graphs, differences in the healthy and unhealthy habits of the different user groups became apparent. The upper left bar graph showed that Groups 3 and 6 had the most “very active” minutes per logged day, while Groups 1 and 5 showed the least very active minutes per logged day. The upper right bar graph showed that Group 4 showed the most “fairly active” minutes, while Groups 5 and 6 showed the least “fairly active” minutes of logged days.
 
-The bottom left bar graph showed that Groups 5 and 6 spent the most amount of time sedentary per logged day, while the bottom right bar graph showed that when it came to wearing the device and passively logging activity, Group 4 showed a significant tendency for the most unlogged minutes while Groups 5 and 6 showed the least amount of unlogged minutes per logged day.		
-    
+The bottom left bar graph showed that Groups 5 and 6 spent the most amount of time sedentary per logged day, while the bottom right bar graph showed that when it came to wearing the device and passively logging activity, Group 4 showed a significant tendency for the most unlogged minutes while Groups 5 and 6 showed the least amount of unlogged minutes per logged day.
+
+![](/Visualizations/group_sedentary.jpg)
+![](/Visualizations/group_unlogged.jpg)
+
 Finally, the bar chart below was produced to show the differences in average total minutes asleep for the different groups. This showed that Group 4 got the most sleep on average and Group 2 got the least, but overall the differences were very minor.
 
 The overall sample size of this dataset makes the results pretty meaningless, and when the sample sizes are even further subdivided into smaller sets of user types, the results become arguably that much more meaningless, but as just preliminary analysis, these charts potentially tell us a lot about different types of users. 
+
+![](/Visualizations/group_sleep.jpg)
 
 Currently most users (Group 1) are only passive distance and sleep logging, and compared to other user groups these users measure up pretty close to average when it comes to activity and sleep times. 15 % of users (Group 2) only log passive distance, sleep, and weight and, again, compared to other user groups these users measure up pretty close to average when it comes to activity, and come in the lowest in terms of sleep but only slightly. Perhaps in this user type, there is a correlation between weight logging and a reduction in sleep. 9% of users (Group 3) passively log sleep and distance, but also sometimes actively long activity events and compared to other user groups these users measure up pretty close to average when it comes to everything except very active minutes. This makes sense as users that more actively log their activity are likely more motivated to be more active and log that activity. These users are proud. 
 
